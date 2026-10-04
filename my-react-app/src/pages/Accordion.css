@@ -1,0 +1,41 @@
+.accordion {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.accordion-header {
+  background-color: #eee;
+  padding: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.accordion-body {
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.accordion-actions {
+  margin-bottom: 5px;
+}
+
+.accordion-actions button {
+  margin-right: 5px;
+}
+
+.accordion-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.accordion-item input {
+  margin-right: 5px; /* 勾選框在文字左邊 */
+}
+
+.accordion-label {
+  display: inline-block;
+}

@@ -1,0 +1,13 @@
+.container {
+  text-align: center;
+  padding-top: 100px; /* 調整整體位置，可稍微往下或往上 */
+  background-image: url('../assets/好友.png'); /* 背景圖路徑 */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}

@@ -1,0 +1,62 @@
+/* index.css */
+* { box-sizing: border-box; }
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;   /* 垂直排列所有元素 */
+  justify-content: center;  /* 垂直置中 */
+  align-items: center;      /* 水平置中 */
+  min-height: 100vh;
+  text-align: center;
+  gap: 10px;
+  padding: 16px;
+}
+
+input, textarea, select {
+  margin: 5px 0;
+  padding: 8px;
+  width: 220px;
+  max-width: 90vw;
+}
+
+textarea { resize: vertical; }
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  background: #f7f7f7;
+}
+
+/* Dashboard 專用容器（按鈕直排、固定寬度） */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 360px;
+  padding-top: 10px;
+}
+.dashboard-container button {
+  width: 100%;
+}
+
+/* 簡單按鈕顏色區分 */
+.primary {
+  background: #1976d2;
+  color: white;
+  border: none;
+}
+.danger {
+  background: #d32f2f;
+  color: white;
+  border: none;
+}
+.small { padding: 6px 8px; font-size: 14px; }

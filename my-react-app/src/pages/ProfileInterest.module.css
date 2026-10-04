@@ -1,0 +1,13 @@
+.profileContainer {
+  background-image: url('../assets/設定資料.png'); /* 背景圖 */
+  background-size: cover;       /* 圖片填滿整個容器 */
+  background-position: center;  /* 置中 */
+  min-height: 100vh;            /* 視窗高度 */
+  display: flex;
+  justify-content: center;      /* 水平置中內容 */
+}
+
+.formContent {
+  padding-top: 10px;            /* 整體往下移 */
+  text-align: center;
+}

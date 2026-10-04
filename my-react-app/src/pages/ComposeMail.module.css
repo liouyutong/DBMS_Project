@@ -1,0 +1,17 @@
+.container {
+  text-align: center;
+  padding-top: 120px; /* 可調整整體位置 */
+  background-image: url('../assets/信箱.png'); /* 背景圖路徑 */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+textarea {
+  resize: none;
+}

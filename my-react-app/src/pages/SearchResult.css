@@ -1,0 +1,35 @@
+/* src/pages/SearchResult.css */
+
+.page-background {
+  padding: 20px;
+  min-height: 100vh;
+  background-image: url('../assets/設定資料.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center; /* 標題與按鈕置中 */
+  box-sizing: border-box;
+}
+
+.page-background h2 {
+  margin-bottom: 20px;
+}
+
+.result-button {
+  width: 55%;
+  text-align: center;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  border: 2px solid #7dc773;
+  border-radius: 5px;
+  background-color: #ffffff; /* 白底 */
+}
+
+.result-button:hover {
+  background-color: #d5efd1; /* 滑鼠hover淺藍色 */
+}
+
+.back-button {
+  padding: 5px 15px;
+  margin-top: 20px;
+}

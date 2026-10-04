@@ -1,0 +1,43 @@
+.container {
+  /* 移除 max-width 限制，讓 container 撐滿整個螢幕 */
+  width: 100vw;
+  height: 100vh;
+
+  text-align: center;
+  padding: 20px;
+
+  /* 背景設定 */
+  background-image: url('../assets/排行榜.png');
+  background-size: cover;       /* 讓背景填滿整個容器 */
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;      /* 垂直置中 */
+  align-items: center;          /* 水平置中 */
+  box-sizing: border-box;
+}
+
+.inputField {
+  width: 300px;                  /* 可固定寬度，避免太長 */
+  padding: 8px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.buttonGroup {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.primaryButton {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;                  /* 按鈕文字顏色 */
+  background-color: #53a0f3;     /* 按鈕底色 */
+  border: none;
+  border-radius: 5px;
+}

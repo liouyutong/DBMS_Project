@@ -1,0 +1,50 @@
+.container {
+  text-align: center;
+  padding-top: 150px;
+  min-height: 100vh;
+  background-image: url('../assets/排行榜.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.inputField {
+  width: 30%;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.primaryButton {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #53a0f3; /* 藍色背景 */
+  font-size: 20px;
+  color: white;              /* 文字白色 */
+  border: none;              /* 取消邊框 */
+  border-radius: 5px;        /* 圓角 */
+}
+
+.secondaryButton {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #6c757d; /* 灰色背景 */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+}

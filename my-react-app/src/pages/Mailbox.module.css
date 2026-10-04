@@ -1,0 +1,19 @@
+.container {
+  text-align: center;
+  padding-top: 150px; /* 調整整體往下的距離，數值越大越往下 */
+  background-image: url('../assets/信箱.png'); /* 路徑依實際 assets 位置調整 */
+  background-size: cover; /* 完整填滿容器 */
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+button {
+  width: 200px;
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}

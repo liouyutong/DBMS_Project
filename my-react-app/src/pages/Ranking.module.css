@@ -1,0 +1,34 @@
+/* src/pages/Ranking.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+  background-image: url('../assets/排行榜.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.list {
+  text-align: left;
+  max-width: 300px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.buttonArea {
+  margin-top: 20px;
+}
+
+.button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
